@@ -33,7 +33,15 @@
 #     print("Тепло")
 # if temp > 25:
 #     print("Жарко")
-
+# #Задание №5
+# def main(stra: str):
+#     stra = ''.join(stra.split())                                                               #
+#     c1 = stra.startswith('+7') or stra.startswith('8')                                         #
+#     c2 = all(stra.split('-'))                                                                  #
+#     c3 = (stra.count('(') == 1 and stra.count(')') == 1 and stra.find('(') < stra.find(')'))   #Условия
+#     c4 = stra.count('(') == 0 and stra.count(')') == 0                                         #
+#     if c1 and c2 and (c3 or c4):                                                               #
+#         for c in '()-': stra = stra.replace(c, '')                                             #
 
 
 
